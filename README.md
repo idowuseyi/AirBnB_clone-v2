@@ -150,3 +150,4 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 ```
 
 ### Finally Done At The Moment
+updated!
