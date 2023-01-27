@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A unit test module for the console (command interpreter).
+""" A unit test module for the console (command interpreter).
 """
 import json
 import MySQLdb
