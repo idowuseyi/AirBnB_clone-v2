@@ -23,11 +23,10 @@ def hbnb():
 
 
 @app.route('/c/<string:text>', strict_slashes=False)
-def c_text(text):
-    """prints C followed by <text> content"""
-    text = text.replace("_", " ")
-    return "C %s" % text
+def text(text=None):
+    """Dynamic inputed text: replace _ for space and show text"""
+    return "C {}".format(text.replace('_', ' '))
 
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
